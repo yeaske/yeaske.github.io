@@ -1,23 +1,14 @@
----
-layout: default
----
-
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+<html>
+<head>
+<title>HTML attributes example</title>
+</head>
+<body>
+   <h1>This is normal heading</h1>
+   <h1 style="font-size:10px; color:#ff0000">
+        This is heading with attribute.</h1>
+   <p style="background-color:#ffffcc">
+     As you see, the background of the paragraph has changed.
+     You can do a lot more with style attribute.
+   </p>
+</body>
+</html>
