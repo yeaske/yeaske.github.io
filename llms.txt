@@ -1,0 +1,34 @@
+# Arun Suresh Kumar
+
+> Technology executive based in Chicago, IL. Vice President of Information Technology at OptioRx. 20+ years leading enterprise engineering, IT, cloud transformation, data and analytics, cybersecurity and AI across healthcare and retail, including Fortune 500 organizations such as Sears/Kmart, DICK'S Sporting Goods, Cisco, Olay and FedEx.
+
+Website: https://yeaske.com/
+LinkedIn: https://www.linkedin.com/in/yeaske
+GitHub: https://github.com/yeaske
+
+## Current role
+
+- Vice President of Information Technology, OptioRx (May 2026 – present), Greater Chicago Area. Responsible for enterprise engineering, IT, cybersecurity, infrastructure, data and digital transformation strategy.
+- Previously Director of Engineering at OptioRx (Jul 2023 – May 2026).
+
+## Areas of expertise
+
+- Enterprise IT strategy and digital transformation
+- Cloud architecture and migration (AWS, GCP)
+- Practical AI: strategy and adoption, model selection and evaluation, AI agents and the Model Context Protocol (MCP), AI governance and security, AI-assisted engineering
+- Data, analytics and machine learning
+- Cybersecurity and infrastructure modernization
+- Enterprise architecture and scalable distributed systems (Python, Java/JEE, Angular)
+- Engineering leadership and building cross-functional teams
+
+## Career history
+
+- OptioRx — VP of Information Technology; Director of Engineering (2023 – present)
+- Transformco (Sears & Kmart) — Director, Software Engineering; Director, Engineering (Pune, India) (2019 – 2023). Led AWS migration of sears.com and kmart.com, GCP data-lake migration and Adobe Commerce integration.
+- Sears Holdings Corporation — Director of Software Engineering; Senior Manager, Engineering; Enterprise Architect (2013 – 2019)
+- DICK'S Sporting Goods — Solutions Architect, omnichannel mobility and web services (2015 – 2016)
+- Infosys — Technology Lead, Technology Analyst, Software Engineer (2006 – 2013). Shop Your Way Rewards loyalty platform for Sears; Cisco Unified Communications Manager web services, encryption and disaster recovery.
+
+## Education
+
+- Bachelor's degree, Electronics and Communication Engineering — Marian Engineering College, Trivandrum (2002 – 2006)
