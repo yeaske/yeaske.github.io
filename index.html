@@ -1,782 +1,383 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]>
-<html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
-<!--[if IE 7]>
-<html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
-<!--[if IE 8]>
-<html class="no-js lt-ie9" lang="en"> <![endif]-->
-<!--[if gt IE 8]><!-->
-<html class="no-js" lang="en"> <!--<![endif]-->
+<!doctype html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Arun Suresh</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width">
-    <link rel='shortcut icon' type='image/x-icon' href='favicon.png'/>
-    <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-72x72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-114x114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="apple-touch-icon-144x144-precomposed.png">
-    <link href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Arun Suresh Kumar — VP of Information Technology</title>
+<meta name="description" content="Arun Suresh Kumar — technology executive with 20+ years leading enterprise engineering, IT, cloud, data, cybersecurity and AI transformation across healthcare and retail.">
+<meta property="og:title" content="Arun Suresh Kumar — VP of Information Technology">
+<meta property="og:description" content="Enterprise Technology, AI, Infrastructure & Data Leadership | Healthcare & Retail">
+<meta property="og:type" content="profile">
+<meta property="og:url" content="https://yeaske.com/">
+<link rel="canonical" href="https://yeaske.com/">
+<link rel="icon" href="favicon.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Person","name":"Arun Suresh Kumar","jobTitle":"Vice President of Information Technology","worksFor":{"@type":"Organization","name":"OptioRx"},"address":{"@type":"PostalAddress","addressLocality":"Chicago","addressRegion":"IL","addressCountry":"US"},"url":"https://yeaske.com/","sameAs":["https://www.linkedin.com/in/yeaske","https://github.com/yeaske"],"alumniOf":"Marian Engineering College, Trivandrum"}
+</script>
+<style>
+:root{
+  --bg:#f7f6f2; --surface:#ffffff; --ink:#14171f; --muted:#5b6170; --line:#e3e1da;
+  --accent:#0f6b63; --accent-soft:#e3f0ee; --chip:#efeee9;
+  --shadow:0 1px 2px rgba(20,23,31,.04),0 8px 24px rgba(20,23,31,.06);
+  --serif:"Newsreader",Georgia,serif; --sans:"Inter",system-ui,-apple-system,sans-serif;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0e1116; --surface:#161a21; --ink:#e9eaee; --muted:#9aa1ae; --line:#262b35;
+  --accent:#5cc4b6; --accent-soft:#16302d; --chip:#1d222b; --shadow:none;
+}}
+:root[data-theme="dark"]{
+  --bg:#0e1116; --surface:#161a21; --ink:#e9eaee; --muted:#9aa1ae; --line:#262b35;
+  --accent:#5cc4b6; --accent-soft:#16302d; --chip:#1d222b; --shadow:none;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:72px}
+body{background:var(--bg);color:var(--ink);font:16px/1.65 var(--sans);-webkit-font-smoothing:antialiased}
+a{color:inherit}
+img{max-width:100%;display:block}
+.wrap{max-width:1080px;margin:0 auto;padding:0 24px}
+@media (max-width:600px){.wrap{padding:0 16px}}
 
-    <link rel="stylesheet" href="css/normalize.min.css">
-    <link rel="stylesheet" href="css/main.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
-    <!--<script src="js/vendor/jquery.hashchange.min.js"></script>-->
-    <script src="js/vendor/jquery.easytabs.min.js"></script>
+/* nav */
+header.nav{position:sticky;top:0;z-index:10;background:color-mix(in srgb,var(--bg) 85%,transparent);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.nav .wrap{display:flex;align-items:center;justify-content:space-between;height:60px}
+.brand{font-weight:600;text-decoration:none;letter-spacing:-.01em}
+.brand span{color:var(--accent)}
+.nav ul{display:flex;gap:28px;list-style:none;align-items:center}
+.nav ul a{text-decoration:none;color:var(--muted);font-size:14px;font-weight:500}
+.nav ul a:hover{color:var(--ink)}
+.theme-btn{background:none;border:1px solid var(--line);color:var(--muted);border-radius:8px;width:34px;height:34px;cursor:pointer;display:grid;place-items:center}
+.theme-btn:hover{color:var(--ink)}
+@media (max-width:760px){.nav ul li.l{display:none}}
 
-    <script src="js/main.js"></script>
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <script>window.html5 || document.write('<script src="js/vendor/html5shiv.js"><\/script>')</script>
-    <![endif]-->
-    <script>
-        (function (i, s, o, g, r, a, m) {
-            i['GoogleAnalyticsObject'] = r;
-            i[r] = i[r] || function () {
-                (i[r].q = i[r].q || []).push(arguments)
-            }, i[r].l = 1 * new Date();
-            a = s.createElement(o),
-                m = s.getElementsByTagName(o)[0];
-            a.async = 1;
-            a.src = g;
-            m.parentNode.insertBefore(a, m)
-        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+/* hero */
+.hero{padding:96px 0 72px}
+.hero-grid{display:grid;grid-template-columns:1fr 260px;gap:64px;align-items:center}
+.eyebrow{font-size:13px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}
+h1{font-family:var(--serif);font-weight:500;font-size:clamp(40px,6vw,68px);line-height:1.04;letter-spacing:-.02em;margin:14px 0 20px}
+.lede{font-size:19px;color:var(--muted);max-width:620px}
+.lede strong{color:var(--ink);font-weight:600}
+.cta{display:flex;gap:12px;margin-top:32px;flex-wrap:wrap}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:12px 20px;border-radius:10px;font-weight:600;font-size:15px;text-decoration:none;border:1px solid var(--line);background:var(--surface)}
+.btn.primary{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.btn:hover{transform:translateY(-1px)}
+.portrait{aspect-ratio:4/5;border-radius:20px;overflow:hidden;background:var(--chip);box-shadow:var(--shadow);border:1px solid var(--line)}
+.portrait img{width:100%;height:100%;object-fit:cover}
+.meta{margin-top:14px;font-size:14px;color:var(--muted);display:flex;flex-direction:column;gap:4px}
+@media (max-width:820px){.hero{padding:56px 0 48px}.hero-grid{grid-template-columns:1fr;gap:36px}.portrait-col{order:-1;max-width:180px}}
 
-        ga('create', 'UA-79669294-1', 'auto');
-        ga('send', 'pageview');
+/* stats */
+.stats{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.stat{padding:28px 20px}
+.stat+.stat{border-left:1px solid var(--line)}
+.stat b{display:block;font-family:var(--serif);font-weight:500;font-size:40px;line-height:1;letter-spacing:-.02em}
+.stat span{font-size:14px;color:var(--muted)}
+@media (max-width:760px){.stats{grid-template-columns:1fr 1fr}.stat:nth-child(3){border-left:0}.stat:nth-child(n+3){border-top:1px solid var(--line)}}
 
+.logos{display:flex;flex-wrap:wrap;gap:12px 36px;align-items:center;padding:28px 0 0;color:var(--muted);font-weight:600;font-size:15px}
+.logos small{font-weight:500;font-size:13px;text-transform:uppercase;letter-spacing:.08em;margin-right:8px}
 
-    </script>
+/* sections */
+section.block{padding:88px 0}
+.sec-head{display:grid;grid-template-columns:260px 1fr;gap:48px;margin-bottom:40px}
+.sec-head h2{font-family:var(--serif);font-weight:500;font-size:34px;letter-spacing:-.015em;line-height:1.15}
+.sec-head p{color:var(--muted);font-size:17px;max-width:640px}
+@media (max-width:820px){section.block{padding:64px 0}.sec-head{grid-template-columns:1fr;gap:12px}}
 
-    <!-- Hotjar Tracking Code for http://yeaske.com/ -->
-    <script>
-        (function (h, o, t, j, a, r) {
-            h.hj = h.hj || function () {
-                (h.hj.q = h.hj.q || []).push(arguments)
-            };
-            h._hjSettings = {hjid: 914763, hjsv: 6};
-            a = o.getElementsByTagName('head')[0];
-            r = o.createElement('script');
-            r.async = 1;
-            r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
-            a.appendChild(r);
-        })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
-    </script>
+/* expertise */
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:24px;box-shadow:var(--shadow)}
+.card .ic{width:36px;height:36px;border-radius:9px;background:var(--accent-soft);color:var(--accent);display:grid;place-items:center;margin-bottom:16px}
+.card h3{font-size:16px;font-weight:600;margin-bottom:6px}
+.card p{font-size:14.5px;color:var(--muted)}
+@media (max-width:900px){.cards{grid-template-columns:1fr 1fr}}
+@media (max-width:560px){.cards{grid-template-columns:1fr}}
+
+/* timeline */
+.timeline{border-left:1px solid var(--line);margin-left:260px;padding-left:0}
+.co{position:relative;padding:0 0 48px 40px}
+.co:last-child{padding-bottom:0}
+.co::before{content:"";position:absolute;left:-6px;top:6px;width:11px;height:11px;border-radius:50%;background:var(--bg);border:2px solid var(--accent)}
+.co-name{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 12px}
+.co-name h3{font-size:20px;font-weight:600;letter-spacing:-.01em}
+.co-name span{color:var(--muted);font-size:14px}
+.role{margin-top:18px}
+.role h4{font-size:16px;font-weight:600}
+.role .when{font-size:13.5px;color:var(--muted);margin:2px 0 8px}
+.role p{color:var(--muted);font-size:15px;max-width:680px}
+.role ul{margin:8px 0 0 18px;color:var(--muted);font-size:15px;max-width:680px}
+.role li{margin:4px 0}
+.role li b{color:var(--ink);font-weight:600}
+.tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+.tag{font-size:12.5px;padding:3px 10px;border-radius:999px;background:var(--chip);color:var(--muted);font-weight:500}
+.now{font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;background:var(--accent-soft);color:var(--accent);padding:2px 8px;border-radius:999px;margin-left:8px;vertical-align:2px}
+@media (max-width:820px){.timeline{margin-left:6px}.co{padding-left:28px}}
+
+/* work */
+.work{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.proj{background:var(--surface);border:1px solid var(--line);border-radius:14px;overflow:hidden;box-shadow:var(--shadow);display:flex;flex-direction:column}
+.proj img{aspect-ratio:16/9;object-fit:cover;width:100%;border-bottom:1px solid var(--line)}
+.proj > div{padding:20px}
+.proj .k{font-size:12px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--accent)}
+.proj h3{font-size:17px;font-weight:600;margin:6px 0}
+.proj p{font-size:14.5px;color:var(--muted)}
+@media (max-width:900px){.work{grid-template-columns:1fr 1fr}}
+@media (max-width:560px){.work{grid-template-columns:1fr}}
+
+/* skills + edu */
+.two{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:28px;box-shadow:var(--shadow)}
+.panel h3{font-size:13px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-bottom:16px}
+.panel .tags{gap:8px}
+.panel .tag{font-size:14px;padding:6px 12px}
+.edu h4{font-size:17px;font-weight:600}
+.edu p{color:var(--muted);font-size:15px}
+.edu+.edu{margin-top:18px;padding-top:18px;border-top:1px solid var(--line)}
+@media (max-width:760px){.two{grid-template-columns:1fr}}
+
+/* contact */
+.contact{background:var(--ink);color:var(--bg);border-radius:20px;padding:56px;display:grid;grid-template-columns:1.3fr 1fr;gap:40px;align-items:center}
+.contact h2{font-family:var(--serif);font-weight:500;font-size:clamp(30px,4vw,42px);line-height:1.1;letter-spacing:-.015em}
+.contact p{opacity:.72;margin-top:12px;font-size:17px}
+.links{display:flex;flex-direction:column;gap:10px}
+.links a{display:flex;align-items:center;justify-content:space-between;padding:14px 18px;border-radius:10px;border:1px solid color-mix(in srgb,var(--bg) 22%,transparent);text-decoration:none;font-weight:500}
+.links a:hover{background:color-mix(in srgb,var(--bg) 8%,transparent)}
+.links small{opacity:.6;font-weight:400}
+@media (max-width:760px){.contact{grid-template-columns:1fr;padding:32px 24px}}
+footer{padding:40px 0 56px;color:var(--muted);font-size:14px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px}
+svg{flex:none}
+</style>
 </head>
-<body class="bg-fixed bg-1">
-<!--[if lt IE 7]>
-<p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
-    your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to
-    improve your experience.</p>
-<![endif]-->
-<div class="main-container">
-    <div class="main wrapper clearfix">
-        <!-- Header Start -->
-        <header id="header">
-            <div id="logo">
-                <h2>
-                    Arun Suresh
-                </h2>
-                <!--<h4>-->
-                <!--Enterprise Architect-->
-                <!--</h4>-->
-            </div>
-        </header>
-        <!-- Header End -->
-        <!-- Main Tab Container -->
-        <div id="tab-container" class="tab-container">
-            <!-- Tab List -->
-            <ul class='etabs'>
-                <li class='tab' id="tab-about">
-                    <a href="#about"><i class="icon-user"></i><span> About Me</span></a>
-                </li>
-                <li class='tab'>
-                    <a href="#resume"><i class="icon-file-text"></i><span> Resume</span></a>
-                </li>
-                <li class='tab'>
-                    <a href="#portfolio"><i class="icon-heart"></i><span> Portfolio</span></a>
-                </li>
-                <li class='tab'>
-                    <a href="#contact"><i class="icon-envelope"></i><span> Contact</span></a>
-                </li>
-            </ul>
-            <!-- End Tab List -->
-            <div id="tab-data-wrap">
-                <!-- About Tab Data -->
-                <div id="about">
-                    <section class="clearfix">
-                        <div class="g2">
-                            <div class="photo">
-                                <img src="https://i.imgur.com/5B9bmY7.jpg"
-                                     alt="Arun Suresh">
-                            </div>
-                            <div class="info">
-                                <h2>
-                                    Arun Suresh
-                                </h2>
-                                <!--<h4>-->
-                                <!--Enterprise / Solutions Architect-->
-                                <!--</h4>-->
-                                <p>
-                                    Technology and Digital transformation leader and Cloud migration expert with track
-                                    record across top Fortune 500 companies including Sears/Kmart, Dick's Sporting
-                                    goods, Cisco, Olay, FedEx.
-                                </p>
-                                <p>
-                                    Senior leadership roles in Retail Domain (eCommerce Frontend
-                                    [Mobile/Desktop/Kiosk/Android/iOS], Loyalty and Reward platforms, data
-                                    analytics/OLAP engines and Loss Prevention), Telecommunication Domain (VoIP
-                                    technology, data streaming and encryption).
-                                </p>
-                                <p>
-                                    16 years of experience in Design, Architecture, Implementation and management of
-                                    scalable, reliable and high available multi-tier Web Service and Web Portal
-                                    solutions.
-                                </p>
-                                <p>
-                                    Enterprise architect with experience in delivering front-end, middleware and backend
-                                    solutions with JEE, Python and Angular in Retail/eCommerce, Omnichannel Mobility,
-                                    Loss Prevention and Telecommunications domains.
-                                </p>
-                                <p>
-                                    Specialized in Product Management, Growth, Strategy and R&D with emphasis on
-                                    cultivating highly motivated, effective and cross-functional teams, designing
-                                    creative solutions and creating the optimal process for streamlined product
-                                    delivery.
-                                </p>
-                                <p>
-                                    Excellent hands on knowledge in design patterns, algorithms, OOP Principles and
-                                    their application in enterprise level web applications. Expert in data-analytics and
-                                    Business Intelligence visualization technologies and solutions.
-                                </p>
-                                Specific areas of interest are AWS and GCP Cloud Architecture, DevOps, Data Analytics,
-                                Automation and Machine Learning.
-                            </div>
-                        </div>
-<!--                        <div class="g1">-->
-<!--                            <div class="main-links sidebar">-->
-<!--                                <ul>-->
-<!--                                    <li>-->
-<!--                                        <a href="#resume"> View My Resume</a>-->
-<!--                                    </li>-->
-<!--                                    <li>-->
-<!--                                        <a href="#portfolio"> My Portfolio</a>-->
-<!--                                    </li>-->
-<!--                                    <li>-->
-<!--                                        <a href="#contact"> Contact Me</a>-->
-<!--                                    </li>-->
-<!--                                </ul>-->
-<!--                            </div>-->
-<!--                        </div>-->
-                        <div class="break"></div>
-                        <div class="contact-info">
-                            <div class="g1">
-                                <div class="item-box clearfix">
-                                    <i class="icon-envelope"></i>
-                                    <div class="item-data">
-                                        <h3><a href="mailto:[email removed]">[email removed]</a></h3>
-                                        <p>Email Address</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="g1">
-                                <div class="item-box clearfix">
-                                    <i class="icon-linkedin"></i>
-                                    <div class="item-data">
-                                        <h3><a href="https://www.linkedin.com/in/yeaske" target="_blank">Arun Suresh</a>
-                                        </h3>
-                                        <p>LinkedIn Profile</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="g1">
-                                <div class="item-box clearfix">
-                                    <i class="icon-github"></i>
-                                    <div class="item-data">
-                                        <h3><a href="https://github.com/yeaske" target="_blank">Arun Suresh</a></h3>
-                                        <p>GitHub Profile</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="g1">
-                                <div class="item-box clearfix">
-                                    <i class="icon-stackexchange"></i>
-                                    <div class="item-data">
-                                        <h3><a href="https://stackoverflow.com/users/2412381/yeaske" target="_blank">Arun
-                                            Suresh</a></h3>
-                                        <p>Stack Overflow Profile</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="g1">
-                                <div class="item-box clearfix">
-                                    <i class="icon-twitter"></i>
-                                    <div class="item-data">
-                                        <h3><a href="https://twitter.com/arunsuresh" target="_blank">@arunsuresh</a>
-                                        </h3>
-                                        <p>Twitter Handle</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section><!-- content -->
-                </div>
-                <!-- End About Tab Data -->
-                <!-- Resume Tab Data -->
-                <div id="resume">
-                    <section class="clearfix">
-                        <div class="g2">
-                            <h3>
-                                Work Experience
-                            </h3>
-                            <ul class="no-list work">
-                                <li>
-                                    <h7>
-                                        Director of Engineering
-                                    </h7>
-                                    <span class="label label-danger">Jul 2023 - Till Date</span>
-                                    <h6>
-                                        Pharmacy Technology <span style="color: brown; ">OptioRx LLC</span>
-                                    </h6>
-                                    <p>
-                                        Engineering and IT leadership owning the Technology, Infrastructure, IT, Security,
-                                        Analytics and Data landscape across multiple pharmacies and data centres.
+<body>
 
-                                        <br/><br/>
-                                        This role leads multiple groups engaged in application development, infrastructure,
-                                        business intelligence, Security, IT support, quality assurance
-                                        and data analytics for the chain of pharmacies, eCommerce solutions and data centers.
-                                    </p>
-                                </li>
-                                <li>
-                                    <h7>
-                                        Director, Software Engineering
-                                    </h7>
-                                    <span class="label label-danger">Apr 2021 - Jul 2023</span>
-                                    <h6>
-                                        Online eCommerce <span style="color: brown; ">Transformco</span>
-                                    </h6>
-                                    <p>
-                                        Engineering leadership of Online eCommerce, Mobile applications, Asset and
-                                        Profit protection and related groups for Sears brands, owning the technology,
-                                        applications, infrastructure, reporting and data landscape.
-                                        <br/><br/>
-                                        This role leads multiple groups engaged in application development, cloud
-                                        migration, DevOps, business intelligence, production support, quality assurance
-                                        and data analytics. Key goals include AWS migration of sears.com and kmart.com,
-                                        integration with Adobe commerce and digital marketing products, GCP migration of
-                                        the data lakes and overall digital transformation.
-                                    </p>
-                                </li>
-                                <li>
-                                    <h7>
-                                        Director, Engineering
-                                    </h7>
-                                    <span class="label label-danger">Dec 2019 - Apr 2021</span>
-                                    <h6>
-                                        Online eCommerce <span style="color: brown; ">Sears Holdings India</span>
-                                    </h6>
-                                    <p>
-                                        Engineering leadership of Online eCommerce, Asset and Profit protection and
-                                        related groups for Sears brands, owning the technology, applications,
-                                        infrastructure, reporting and data landscape.
-                                        <br/><br/>
-                                        This role leads multiple groups engaged in application development, cloud
-                                        migration, DevOps, business intelligence, production support and data analytics.
-                                        Key goals include AWS migration of sears.com and kmart.com, integration with
-                                        Adobe commerce and marketing products, GCP migration of the data lakes and
-                                        overall digital transformation.
-                                    </p>
-                                </li>
-                                <li>
-                                    <h7>
-                                        Director, Software Engineering
-                                    </h7>
-                                    <span class="label label-danger">June 2019 - Nov 2019</span>
-                                    <h6>
-                                        Online Technology <span style="color: brown; ">Transformco</span>
-                                    </h6>
-                                    <p>
-                                        Leadership of multiple product groups skilled in application development, cloud
-                                        migration, business intelligence, production support and data analytics.
-                                        <br/><br/>
-                                        This role owns the technology, applications, infrastructure, reporting and data
-                                        landscape of multiple groups within Sears Brands. The key goals of this role are
-                                        Cloud migration (AWS and GCP), Agile evangelization, aggressive automation,
-                                        vendor integration and machine learning adoption.
-                                    </p>
-                                </li>
-                                <li>
-                                    <h7>
-                                        Director of Software Engineering
-                                    </h7>
-                                    <span class="label label-danger">Aug 2016 - June 2019</span>
-                                    <h6>
-                                        Enterprise Technology <span
-                                            style="color: brown; ">Sears Holdings Corporation</span>
-                                    </h6>
-                                    <p>
-                                        Leadership of multiple product teams skilled in application development,
-                                        business intelligence, production support and data analytics, working for Sears
-                                        Member Technology Group.
-                                        <br/><br/>
-                                        This role primarily owns the technology, applications, reporting and data
-                                        landscape of Sears/Kmart Asset and Profit Protection department (Formerly Loss
-                                        Prevention Group). The key goals of this role are Cloud migration/Architecture
-                                        modernization, Agile adoption, Data Analytics implementation, Automation and In
-                                        house Mobility.
-                                    </p>
-                                </li>
-                                <li>
-                                    <h7>
-                                        Solutions Architect
-                                    </h7>
-                                    <span class="label label-danger">Sep 2015 - Aug 2016</span>
-                                    <h6>
-                                        Web Services and Mobility <span style="color: brown; ">Dick's Sporting Goods,
-										Inc.</span>
-                                    </h6>
-                                    <p>
-                                        Dick's Sporting Goods Mobility and Web-services platform: Design and
-                                        architecture of optimal eCommerce and retail solution for omnichannel devices
-                                        including mobile, tablet, desktop, kiosks and scanners.
-                                        <br/><br/>
-                                        This was a dual role of Technology Manager and Solutions architect, owning the
-                                        design, development and delivery of the fieldandstreamshop.com multi-device web
-                                        solution and the backend webMethods REST web-service cluster interfacing with
-                                        IBM WebSphere Commerce Suite. The projects were run as Agile sprints and the
-                                        scrum included product managers, UI/UX developers, webMethod developers and QA
-                                        engineers.
-                                        <br/><br/>
-                                        *Contract Role as part of Tata Consultancy Services (TCS)
-                                    </p>
-                                </li>
-                                <li>
-                                    <h7>
-                                        Enterprise Architect
-                                    </h7>
-                                    <span class="label label-danger">Oct 2013 - Sep 2015</span>
-                                    <h6>
-                                        GameOn / Segno / Analytics <span style="color: brown; ">Sears Holdings
-										Corporation</span>
-                                    </h6>
-                                    <p>
-                                        GameOn, Sears Gamification Engine: A Gamified web solution for associates and
-                                        stores to compete, track and compare performance metics (P/L, sales, shrink,
-                                        learning, safety, compliance etc) and win awards, recognition and remuneration
-                                        as payouts.
-                                        <br/><br/>
-                                        Segno, Sears eLearning Platform: An innovative in-house learning platform for
-                                        associates to learn and scale up varied business and job oriented skill sets,
-                                        while earning points, medals and badges to keep them motivated and increase
-                                        their individual competitive Score.
-                                        <br/><br/>
-                                        Analytics Platform: Design and architecture of Analytics and Business
-                                        Intelligence applications, Visualization Dashboards and data engineering tools.
-                                        <br/><br/>
-                                        This role owned the end to end development, delivery and support of the above
-                                        three projects and other contractual obligations related to these.
-                                        <br/><br/>
-                                        * Contract Role as part of Infosys Ltd.
-                                    </p>
-                                </li>
-                                <li>
-                                    <h7>
-                                        Technology Lead
-                                    </h7>
-                                    <span class="label label-danger">Apr 2011 - Sep 2013</span>
-                                    <h6>
-                                        Multiple Projects <span style="color: brown; ">Infosys Ltd</span>
-                                    </h6>
-                                    <p>
-                                        Sears Holdings Loyalty Platform: Led a full fledged web services development
-                                        team and a support team onsite/offshore and delivered to production a brand new
-                                        loyalty application for Sears, Shop your Way Rewards (SYWR) which is the pillar
-                                        of Sears recovery effort.
-                                        <br/><br/>
-                                        Cisco VoIP/CUCM WebServices Platform: Designed and developed the SOAP Interface
-                                        for Cisco Unified Call manager administration.
-                                        <br/><br/>
-                                        Cisco VoIP Encryption: Designed the core encryption algorithm for Cisco call
-                                        manager data stream providing military grade encryption for meta data flowing
-                                        between the nodes.
-                                        <br/><br/>
-                                        Scrum Master: Introduced and trained the core Cisco CUCM development team on
-                                        Agile software development methodologies transitioning from waterfall model.
-                                        Accountable for supporting the agile team to deliver the sprint goals every
-                                        iteration on time, running the spring planning/review/retrospective and also
-                                        ensuring that the big picture timelines are still intact.
-                                    </p>
-                                </li>
-                                <li>
-                                    <h7>
-                                        Technology Analyst
-                                    </h7>
-                                    <span class="label label-danger">Oct 2009 - Mar 2011</span>
-                                    <h6>
-                                        Cisco Unified Communications Manager<span
-                                            style="color: brown; ">Infosys Ltd.</span>
-                                    </h6>
-                                    <p>
-                                        Lead Developer for full fledged web application development team, working on
-                                        VOIP applications.
-                                        Design and develop disaster recovery system for Cisco Communication Manager
-                                        based on requirements from Client.
-                                        <br/><br/>
-                                        This role involved java and python development, mentoring the team, providing
-                                        code review and interacting with architecture team on requirements and status.
-                                    </p>
-                                </li>
-                                <li>
-                                    <h7>
-                                        Software Engineer
-                                    </h7>
-                                    <span class="label label-danger">Aug 2006 - Sep 2009</span>
-                                    <h6>
-                                        Cisco Unified Communications Manager<span
-                                            style="color: brown; ">Infosys Ltd.</span>
-                                    </h6>
-                                    <p>
-                                        Full stack developer for web application development team, working on VOIP and
-                                        disaster recovery applications. This role was an individual contributor
-                                        developing disaster recovery system for Cisco Communication Manager based on
-                                        requirements from architecture team.
-                                        <br/><br/>
-                                        This includes four months of intensive Infosys training on all streams of
-                                        software engineering and hands on development, with specialization in product
-                                        engineering domain.
+<header class="nav">
+  <div class="wrap">
+    <a class="brand" href="#top">Arun Suresh Kumar<span>.</span></a>
+    <ul>
+      <li class="l"><a href="#expertise">Expertise</a></li>
+      <li class="l"><a href="#experience">Experience</a></li>
+      <li class="l"><a href="#work">Selected work</a></li>
+      <li class="l"><a href="#contact">Contact</a></li>
+      <li><button class="theme-btn" id="theme" aria-label="Toggle dark mode">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+      </button></li>
+    </ul>
+  </div>
+</header>
 
-                                    </p>
-                                </li>
+<main id="top">
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <div class="eyebrow">Vice President of Information Technology · OptioRx</div>
+      <h1>Enterprise technology, AI&nbsp;&amp;&nbsp;data leadership for healthcare and retail.</h1>
+      <p class="lede">I'm a technology executive with <strong>20+ years</strong> building and scaling engineering, infrastructure, cybersecurity and analytics organizations — from Fortune&nbsp;500 retail to fast-growing healthcare. I turn technology investments into growth, efficiency and better customer experiences.</p>
+      <div class="cta">
+        <a class="btn primary" href="#contact">Get in touch</a>
+        <a class="btn" href="https://www.linkedin.com/in/yeaske" target="_blank" rel="noopener">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg>
+          LinkedIn
+        </a>
+      </div>
+    </div>
+    <div class="portrait-col">
+      <div class="portrait"><img src="https://i.imgur.com/5B9bmY7.jpg" alt="Portrait of Arun Suresh Kumar"></div>
+      <div class="meta"><span>📍 Greater Chicago Area</span></div>
+    </div>
+  </div>
+</section>
 
-                            </ul>
-                            <h3>
-                                Education
-                            </h3>
-                            <ul class="no-list work">
-                                <li>
-                                    <h5>
-                                        Bachelor of Technology, Electronics & Communication Engineering
-                                    </h5>
-                                    <p>
-                                        Marian College of Engineering, Trivandrum, India
-                                        <span class="label label-success">2002-2006</span>
-                                    </p>
-                                </li>
-                                <li>
-                                    <h5>
-                                        +2/Pre-University, Computer Science
-                                    </h5>
-                                    <p>
-                                        St. Mary's Higher Secondary School, Trivandrum, India
-                                        <span class="label label-success">2000-2002</span>
-                                    </p>
-                                </li>
-                                <li>
-                                    <h5>
-                                        Secondary School Leaving Certificate
-                                    </h5>
-                                    <p>
-                                        Christ Nagar Higher Secondary School, Trivandrum, India
-                                        <span class="label label-success">1994-2000</span>
-                                    </p>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="g1">
-                            <div class="sidebar">
-                                <h3>
-                                    Skills
-                                </h3>
-                                <h5>
-                                    Programming Language
-                                </h5>
-                                <div class="meter emerald">
-                                    <span style="width: 100%"><span>Java/JEE</span></span>
-                                </div>
-                                <div class="meter carrot">
-                                    <span style="width: 100%"><span>Python</span></span>
-                                </div>
-                                <div class="meter wisteria">
-                                    <span style="width: 90%"><span>HTML/CSS/JS</span></span>
-                                </div>
-                                <div class="meter sunflower">
-                                    <span style="width: 80%"><span>Shell</span></span>
-                                </div>
-                                <div class="meter asbestos">
-                                    <span style="width: 60%"><span>SQL</span></span>
-                                </div>
-                                <div class="break"></div>
-                                <h5>
-                                    Application Framework
-                                </h5>
-                                <div class="meter emerald">
-                                    <span style="width: 100%"><span>Java Spring</span></span>
-                                </div>
-                                <div class="meter carrot">
-                                    <span style="width: 95%"><span>Django</span></span>
-                                </div>
-                                <div class="meter wisteria">
-                                    <span style="width: 95%"><span>Angular</span></span>
-                                </div>
-                                <div class="meter sunflower">
-                                    <span style="width: 90%"><span>Flask</span></span>
-                                </div>
-                                <div class="meter asbestos">
-                                    <span style="width: 60%"><span>Struts</span></span>
-                                </div>
-                                <div class="break"></div>
-                                <h5>
-                                    Data Layer
-                                </h5>
-                                <div class="meter emerald">
-                                    <span style="width: 100%"><span>MySQL</span></span>
-                                </div>
-                                <div class="meter carrot">
-                                    <span style="width: 95%"><span>MongoDB</span></span>
-                                </div>
-                                <div class="meter wisteria">
-                                    <span style="width: 95%"><span>MSSQL</span></span>
-                                </div>
-                                <div class="meter sunflower">
-                                    <span style="width: 80%"><span>Memcached</span></span>
-                                </div>
-                                <div class="meter asbestos">
-                                    <span style="width: 80%"><span>Redis</span></span>
-                                </div>
-                                <div class="meter midnight">
-                                    <span style="width: 40%"><span>Hadoop</span></span>
-                                </div>
-                                <div class="break"></div>
-                                <h5>
-                                    IDE
-                                </h5>
-                                <div class="meter emerald">
-                                    <span style="width: 100%"><span>Eclipse</span></span>
-                                </div>
-                                <div class="meter carrot">
-                                    <span style="width: 90%"><span>PyCharm</span></span>
-                                </div>
-                                <div class="meter wisteria">
-                                    <span style="width: 90%"><span>WebStorm</span></span>
-                                </div>
-                                <div class="meter sunflower">
-                                    <span style="width: 60%"><span>PyDev</span></span>
-                                </div>
-                                <div class="meter midnight">
-                                    <span style="width: 40%"><span>STS</span></span>
-                                </div>
-                                <div class="break"></div>
-                                <h5>
-                                    App/Web Servers
-                                </h5>
-                                <div class="meter emerald">
-                                    <span style="width: 100%"><span>Tomcat</span></span>
-                                </div>
-                                <div class="meter carrot">
-                                    <span style="width: 100%"><span>JBOSS</span></span>
-                                </div>
-                                <div class="meter wisteria">
-                                    <span style="width: 90%"><span>NGINX</span></span>
-                                </div>
-                                <div class="meter sunflower">
-                                    <span style="width: 90%"><span>Gunicorn</span></span>
-                                </div>
-                                <div class="meter asbestos">
-                                    <span style="width: 80%"><span>Apache</span></span>
-                                </div>
-                                <div class="meter midnight">
-                                    <span style="width: 80%"><span>WSGI</span></span>
-                                </div>
-                                <div class="break"></div>
-                            </div>
-                        </div>
-                    </section>
-                </div>
-                <!-- End Resume Tab Data -->
-                <!-- Portfolio Tab Data -->
-                <div id="portfolio">
-                    <section class="clearfix">
-                        <div class="g1">
-                            <div class="image">
-                                <img src="images/sears_image.jpeg"
-                                     alt="">
-                                <div class="image-overlay">
-                                    <div class="image-link">
-                                        <a href="https://www.sears.com" class="btn" target="_blank">Full View</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="g1">
-                            <div class="image">
-                                <img src="images/sywr_image.jpg"
-                                     alt="">
-                                <div class="image-overlay">
-                                    <div class="image-link">
-                                        <a href="https://www.shopyourway.com" class="btn" target="_blank">Full View</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="g1">
-                            <div class="image">
-                                <img src="images/FnS_image.jpg"
-                                     alt="">
-                                <div class="image-overlay">
-                                    <div class="image-link">
-                                        <a href="https://m.fieldandstreamshop.com/" class="btn" target="_blank">Full
-                                            View</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="g1">
-                            <div class="image">
-                                <img src="images/dicks_image.jpg" alt="">
-                                <div class="image-overlay">
-                                    <div class="image-link">
-                                        <a href="https://dickssportinggoods.com" class="btn" target="_blank">Full
-                                            View</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--						<div class="break"></div>-->
-                        <div class="g1">
-                            <div class="image">
-                                <img src="images/gameon_image.jpg" alt="">
-                                <div class="image-overlay">
-                                    <div class="image-link">
-                                        <a href="https://gameon.searshc.com" class="btn" target="_blank">Full View</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="g1">
-                            <div class="image">
-                                <img src="images/kmart_image.jpg"
-                                     alt="">
-                                <div class="image-overlay">
-                                    <div class="image-link">
-                                        <a href="https://www.kmart.com/" class="btn" target="_blank">Full View</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="g1">
-                            <div class="image">
-                                <img src="images/cucm_devices_image.jpg"
-                                     alt="">
-                                <div class="image-overlay">
-                                    <div class="image-link">
-                                        <a href="https://www.cisco.com/c/en/us/products/unified-communications/unified-communications-manager-callmanager/index.html"
-                                           class="btn" target="_blank">Full View</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+<div class="wrap">
+  <div class="stats">
+    <div class="stat"><b>20+</b><span>years in technology</span></div>
+    <div class="stat"><b>10+</b><span>years in engineering leadership</span></div>
+    <div class="stat"><b>5</b><span>Fortune 500 brands served</span></div>
+    <div class="stat"><b>2</b><span>clouds migrated at scale (AWS, GCP)</span></div>
+  </div>
+  <div class="logos"><small>Worked with</small>Sears &amp; Kmart · DICK'S Sporting Goods · Cisco · Olay · FedEx · OptioRx</div>
+</div>
 
-                        <!--						<div class="break"></div>-->
-                        <div class="g1">
-                            <div class="image">
-                                <img src="images/axl_image.png"
-                                     alt="">
-                                <div class="image-overlay">
-                                    <div class="image-link">
-                                        <a href="https://developer.cisco.com/site/axl" class="btn" target="_blank">Full
-                                            View</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="g1">
-                            <div class="image">
-                                <img src="images/DRS_image.png"
-                                     alt="">
-                                <div class="image-overlay">
-                                    <div class="image-link">
-                                        <a href="https://www.cisco.com/c/en/us/td/docs/voice_ip_comm/cucm/drs/9_1_1/CUCM_BK_D9A29FAD_00_disaster-recovery-system-cucm-91.html"
-                                           class="btn" target="_blank">Full View</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="g1">
-                            <div class="image">
-                                <img src="images/BARS_image.png" alt="">
-                                <div class="image-overlay">
-                                    <div class="image-link">
-                                        <a href="https://www.cisco.com/c/en/us/support/unified-communications/callmanager-backup-restore-system-utility-bars/model.html"
-                                           class="btn" target="_blank">Full View</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
-                </div>
-                <!-- End Portfolio Data -->
-                <!-- Contact Tab Data -->
-                <div id="contact">
-                    <section class="clearfix">
-                        <div class="g1">
-                            <div class="sny-icon-box">
-                                <div class="sny-icon">
-                                    <i class="icon-globe"></i>
-                                </div>
-                                <div class="sny-icon-content">
-                                    <h4>My Address</h4>
-                                    <p>Chicago</p>
-                                    <p>Illinois 60193</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="g1">
-                            <div class="sny-icon-box">
-                                <div class="sny-icon">
-                                    <i class="icon-phone"></i>
-                                </div>
-                                <div class="sny-icon-content">
-                                    <h4>Mobile Number</h4>
-                                    <p>***-***-****</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="g1">
-                            <div class="sny-icon-box">
-                                <div class="sny-icon">
-                                    <i class="icon-user"></i>
-                                </div>
-                                <div class="sny-icon-content">
-                                    <h4>About Me</h4>
-                                    <p>Budding father and a loving husband.
-                                        Python/Flask Enthusiast.
-                                        Java Ninja.
-                                        Spring/Django Architect.
-                                        Unix/OSX Lover.
-                                        Angular Artist.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="break"></div>
+<section class="block" id="expertise">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>What I lead</h2>
+      <p>I own the full technology landscape — engineering, IT, infrastructure, security and data — and partner with executive leadership to align it with business goals, compliance and customer experience.</p>
+    </div>
+    <div class="cards">
+      <div class="card"><div class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 12h4l3-8 4 16 3-8h4"/></svg></div><h3>Enterprise IT &amp; Digital Transformation</h3><p>Modernizing operations and platforms across healthcare, retail and eCommerce.</p></div>
+      <div class="card"><div class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M17.5 19a4.5 4.5 0 1 0-1.4-8.8A6 6 0 0 0 4.5 12 3.5 3.5 0 0 0 6 19z"/></svg></div><h3>Cloud Architecture &amp; Migration</h3><p>Led AWS migration of sears.com and kmart.com and GCP data-lake modernization.</p></div>
+      <div class="card"><div class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 2v4M12 18v4M4.9 4.9l2.8 2.8M16.3 16.3l2.8 2.8M2 12h4M18 12h4M4.9 19.1l2.8-2.8M16.3 7.7l2.8-2.8"/></svg></div><h3>AI, Automation &amp; Analytics</h3><p>Practical AI and ML, BI platforms and automation that improve decision-making.</p></div>
+      <div class="card"><div class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div><h3>Cybersecurity &amp; Infrastructure</h3><p>Securing pharmacy IT systems, data centers and eCommerce platforms.</p></div>
+      <div class="card"><div class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg></div><h3>Enterprise Architecture</h3><p>Scalable, highly available distributed systems with Python, Java/JEE and Angular.</p></div>
+      <div class="card"><div class="ic"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="9" cy="7" r="4"/><path d="M2 21v-1a6 6 0 0 1 12 0v1M16 3.1a4 4 0 0 1 0 7.8M22 21v-1a6 6 0 0 0-4-5.6"/></svg></div><h3>Engineering Leadership</h3><p>Building high-performing, cross-functional teams across onsite and offshore locations.</p></div>
+    </div>
+  </div>
+</section>
 
-                    </section>
-                </div>
-                <!-- End Contact Data -->
-            </div>
+<section class="block" id="experience" style="padding-top:0">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>Experience</h2>
+      <p>Two decades from writing code for Cisco's call manager to running technology for a national pharmacy group.</p>
+    </div>
+    <div class="timeline">
+
+      <div class="co">
+        <div class="co-name"><h3>OptioRx</h3><span>Greater Chicago Area · 2023 – Present</span></div>
+        <div class="role">
+          <h4>Vice President of Information Technology <span class="now">Current</span></h4>
+          <div class="when">May 2026 – Present</div>
+          <p>Responsible for enterprise Engineering, IT, Cybersecurity, Infrastructure, Data and Digital Transformation strategy. Leading modernization around scalable healthcare platforms, cloud, analytics, automation and AI-enabled operations, overseeing teams across software engineering, infrastructure, IT operations, analytics and vendor ecosystems.</p>
         </div>
-        <!-- End Tab Container -->
-        <footer>
-            <p>
-            </p>
-        </footer>
-    </div><!-- #main -->
-</div><!-- #main-container -->
+        <div class="role">
+          <h4>Director of Engineering</h4>
+          <div class="when">Jul 2023 – May 2026</div>
+          <p>Led engineering across technology, infrastructure, IT security, analytics and data for a fast-growing pharmacy chain — securing and scaling eCommerce, pharmacy IT systems and data centers.</p>
+        </div>
+        <div class="tags"><span class="tag">Healthcare</span><span class="tag">Cybersecurity</span><span class="tag">AI</span><span class="tag">Data &amp; Analytics</span></div>
+      </div>
 
+      <div class="co">
+        <div class="co-name"><h3>Transformco (Sears &amp; Kmart)</h3><span>Chicago &amp; Pune · 2019 – 2023</span></div>
+        <div class="role">
+          <h4>Director, Software Engineering</h4>
+          <div class="when">Apr 2021 – Jul 2023 · Chicago</div>
+          <p>Led Online eCommerce, Mobile Apps and Asset &amp; Profit Protection engineering for Sears brands, owning applications, infrastructure, reporting and data.</p>
+          <ul>
+            <li><b>AWS migration</b> of sears.com and kmart.com</li>
+            <li><b>GCP migration</b> of enterprise data lakes</li>
+            <li>Integration with <b>Adobe Commerce</b> and digital marketing products</li>
+          </ul>
+        </div>
+        <div class="role">
+          <h4>Director, Engineering</h4>
+          <div class="when">Dec 2019 – Apr 2021 · Pune, India</div>
+          <p>Built and led the India engineering organization for eCommerce and Asset &amp; Profit Protection — cloud transformation, Agile adoption and automation at scale.</p>
+        </div>
+        <div class="role">
+          <h4>Director, Software Engineering</h4>
+          <div class="when">Jun 2019 – Nov 2019</div>
+          <p>Led cross-functional product teams through AWS/GCP migrations, Agile adoption and ML integration.</p>
+        </div>
+        <div class="tags"><span class="tag">eCommerce</span><span class="tag">AWS</span><span class="tag">GCP</span><span class="tag">Mobile</span><span class="tag">DevOps</span></div>
+      </div>
 
+      <div class="co">
+        <div class="co-name"><h3>Sears Holdings Corporation</h3><span>Greater Chicago Area · 2013 – 2019</span></div>
+        <div class="role">
+          <h4>Director of Software Engineering</h4>
+          <div class="when">Jan 2017 – Jun 2019</div>
+          <p>Led product teams in the Sears Member Technology Group — cloud migration, architecture modernization, data analytics and in-house mobility.</p>
+        </div>
+        <div class="role">
+          <h4>Senior Manager, Engineering</h4>
+          <div class="when">Aug 2016 – Jan 2017</div>
+          <p>Owned technology, AI/ML and data for Asset &amp; Profit Protection — fraud detection, R&amp;D and business intelligence.</p>
+        </div>
+        <div class="role">
+          <h4>Enterprise Architect <span style="color:var(--muted);font-weight:400">· via Infosys</span></h4>
+          <div class="when">Oct 2013 – Sep 2015</div>
+          <p>Designed GameOn (gamified associate performance), Segno (eLearning platform) and an enterprise analytics &amp; BI platform.</p>
+        </div>
+        <div class="tags"><span class="tag">Loyalty</span><span class="tag">Fraud detection</span><span class="tag">BI</span><span class="tag">Architecture</span></div>
+      </div>
+
+      <div class="co">
+        <div class="co-name"><h3>DICK'S Sporting Goods</h3><span>Pittsburgh · 2015 – 2016</span></div>
+        <div class="role">
+          <h4>Solutions Architect <span style="color:var(--muted);font-weight:400">· via TCS</span></h4>
+          <div class="when">Sep 2015 – Aug 2016</div>
+          <p>Architected the omnichannel Mobility and Web-services platform across mobile, tablet, desktop, kiosks and scanners; delivered fieldandstreamshop.com on webMethods REST services and IBM WebSphere Commerce.</p>
+        </div>
+        <div class="tags"><span class="tag">Omnichannel</span><span class="tag">Retail</span><span class="tag">REST</span></div>
+      </div>
+
+      <div class="co">
+        <div class="co-name"><h3>Infosys</h3><span>Bengaluru &amp; Chicago · 2006 – 2013</span></div>
+        <div class="role">
+          <h4>Technology Lead (Scrum Master)</h4>
+          <div class="when">Apr 2011 – Sep 2013</div>
+          <ul>
+            <li>Launched the <b>Shop Your Way Rewards</b> loyalty platform for Sears</li>
+            <li>Built the SOAP interface for <b>Cisco Unified Communications Manager</b></li>
+            <li>Engineered the encryption algorithm securing Cisco call-manager data streams</li>
+          </ul>
+        </div>
+        <div class="role">
+          <h4>Technology Analyst · Software Engineer</h4>
+          <div class="when">Aug 2006 – Mar 2011</div>
+          <p>Lead developer on Cisco's VoIP disaster recovery system in Java and Python.</p>
+        </div>
+        <div class="tags"><span class="tag">VoIP</span><span class="tag">Java</span><span class="tag">Python</span><span class="tag">Agile</span></div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="block" id="work" style="padding-top:0">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>Selected work</h2>
+      <p>Platforms I've led, architected or built along the way.</p>
+    </div>
+    <div class="work">
+      <article class="proj"><img src="images/sears_image.jpeg" alt="Sears.com" loading="lazy"><div><div class="k">Sears &amp; Kmart</div><h3>sears.com &amp; kmart.com cloud migration</h3><p>Moved flagship eCommerce sites to AWS and modernized data lakes on GCP.</p></div></article>
+      <article class="proj"><img src="images/sywr_image.jpg" alt="Shop Your Way Rewards" loading="lazy"><div><div class="k">Sears</div><h3>Shop Your Way Rewards</h3><p>Web services behind the loyalty program at the core of Sears' recovery strategy.</p></div></article>
+      <article class="proj"><img src="images/FnS_image.jpg" alt="Field &amp; Stream mobile site" loading="lazy"><div><div class="k">DICK'S Sporting Goods</div><h3>Field &amp; Stream omnichannel</h3><p>Multi-device storefront and REST services for mobile, kiosk and scanner.</p></div></article>
+      <article class="proj"><img src="images/gameon_image.jpg" alt="GameOn" loading="lazy"><div><div class="k">Sears</div><h3>GameOn gamification engine</h3><p>Stores and associates compete on P&amp;L, sales, shrink, safety and learning.</p></div></article>
+      <article class="proj"><img src="images/cucm_devices_image.jpg" alt="Cisco CUCM devices" loading="lazy"><div><div class="k">Cisco</div><h3>CUCM web services &amp; encryption</h3><p>SOAP administration interface and secure call-manager data streams.</p></div></article>
+      <article class="proj"><img src="images/DRS_image.png" alt="Cisco Disaster Recovery System" loading="lazy"><div><div class="k">Cisco</div><h3>Disaster Recovery System</h3><p>Backup and recovery for Cisco's VoIP call manager platform.</p></div></article>
+    </div>
+  </div>
+</section>
+
+<section class="block" style="padding-top:0">
+  <div class="wrap two">
+    <div class="panel">
+      <h3>Core skills</h3>
+      <div class="tags">
+        <span class="tag">Strategic Vision</span><span class="tag">Engineering Leadership</span><span class="tag">Enterprise Architecture</span><span class="tag">Software Architecture</span><span class="tag">AWS</span><span class="tag">GCP</span><span class="tag">AI / ML</span><span class="tag">Data Analytics</span><span class="tag">Cybersecurity</span><span class="tag">DevOps</span><span class="tag">Python</span><span class="tag">Java / JEE</span><span class="tag">Angular</span><span class="tag">Agile</span>
+      </div>
+    </div>
+    <div class="panel">
+      <h3>Education</h3>
+      <div class="edu"><h4>Bachelor's, Electronics &amp; Communication Engineering</h4><p>Marian Engineering College, Trivandrum · 2002 – 2006</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="block" id="contact" style="padding-top:0">
+  <div class="wrap">
+    <div class="contact">
+      <div>
+        <h2>Let's talk technology, AI and transformation.</h2>
+        <p>Open to conversations about leadership, advisory and speaking.</p>
+      </div>
+      <div class="links">
+        <a href="https://www.linkedin.com/in/yeaske" target="_blank" rel="noopener">LinkedIn <small>/in/yeaske</small></a>
+        <a href="https://github.com/yeaske" target="_blank" rel="noopener">GitHub <small>@yeaske</small></a>
+      </div>
+    </div>
+    <footer><span>© <span id="yr">2026</span> Arun Suresh Kumar</span><span>Chicago, IL</span></footer>
+  </div>
+</section>
+</main>
+
+<script>
+(function(){
+  var root=document.documentElement,btn=document.getElementById('theme');
+  try{var t=localStorage.getItem('theme');if(t)root.setAttribute('data-theme',t);}catch(e){}
+  btn.addEventListener('click',function(){
+    var dark=root.getAttribute('data-theme')?root.getAttribute('data-theme')==='dark':matchMedia('(prefers-color-scheme: dark)').matches;
+    var next=dark?'light':'dark';root.setAttribute('data-theme',next);
+    try{localStorage.setItem('theme',next);}catch(e){}
+  });
+  document.getElementById('yr').textContent=new Date().getFullYear();
+})();
+</script>
 </body>
 </html>
